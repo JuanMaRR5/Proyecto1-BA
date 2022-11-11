@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 13, 13);
+    border: white 2px solid;
+}
+
+.header {
+  background-color: rgb(245, 201, 4);
+  
+    
+}
+
+li a:hover {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    background-color: rgba(245, 201, 4, 0.966);
+    
+}
+
+footer img {
+    width: 5rem;
+    
+
+}
+
+
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card-text{
+    color: black;
+}
+
+
+.productos{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:center;
+   margin: 50px auto;
+ }
+
+ 
+
